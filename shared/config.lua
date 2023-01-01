@@ -2,10 +2,10 @@ Config = {}
 
 Config.Debug = false
 
-Config.ClothingCost = 100
-Config.BarberCost = 100
-Config.TattooCost = 100
-Config.SurgeonCost = 100
+Config.ClothingCost = 5000
+Config.BarberCost = 5000
+Config.TattooCost = 5000
+Config.SurgeonCost = 5000
 
 Config.UseTarget = false
 
@@ -17,7 +17,7 @@ Config.NotifyOptions = {
     position = "top-right"
 }
 
-Config.UseRadialMenu = false
+Config.UseRadialMenu = true
 
 Config.EnablePedsForShops = true
 Config.EnablePedsForClothingRooms = true
@@ -26,7 +26,7 @@ Config.EnablePedsForPlayerOutfitRooms = true
 Config.EnablePedMenu = true
 Config.PedMenuGroup = "admin"
 
-Config.ShowNearestShopOnly = false
+Config.ShowNearestShopOnly = true
 Config.NearestShopBlipUpdateDelay = 10000
 
 Config.InvincibleDuringCustomization = true
@@ -45,10 +45,10 @@ Config.GenderBasedOnPed = true
 
 Config.AlwaysKeepProps = false
 
-Config.PersistUniforms = false -- Keeps Job / Gang Outfits on player reconnects / logout
+Config.PersistUniforms = true -- Keeps Job / Gang Outfits on player reconnects / logout
 Config.OnDutyOnlyClothingRooms = false -- Set to `true` to make the clothing rooms accessible only to players who are On Duty
 
-Config.BossManagedOutfits = false -- Allows Job / Gang bosses to manage their own job / gang outfits
+Config.BossManagedOutfits = true -- Allows Job / Gang bosses to manage their own job / gang outfits
 
 Config.ReloadSkinCooldown = 5000
 
